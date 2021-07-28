@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/todo-hooks/node_modules
+/todo-hooks-final/node_modules
+/todo-hooks-reducer/node_modules
+/todo-hooks-reducer-split/node_modules
+/todo-hooks-reducer-split-memo/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
